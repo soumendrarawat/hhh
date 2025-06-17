@@ -4,7 +4,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
         const targetSection = document.querySelector(this.getAttribute('href'));
         window.scrollTo({
             top: targetSection.offsetTop - 50, // Account for fixed header height
-            behavior: 'smooth'
+            behavior: 'smoothh'
         });
 
         // Update active class on nav links
